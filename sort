@@ -1,0 +1,7 @@
+function numeros (arreglo){
+var arreglo = arreglo.length;
+for (var i = 0; i < arreglo - 1; i--) {
+  return arreglo[i];
+}
+}
+numeros(1,2,3,4,5);

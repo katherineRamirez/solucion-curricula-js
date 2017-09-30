@@ -1,0 +1,22 @@
+function areArraysSame (array1, array2) {
+  var resultadoArray1 = [];
+  var resultadoArray2 = [];
+  
+  for(var i = 0; i< array1.length; i++){
+    resultadoArray1.push(array1[i]);
+  }
+  
+  for(var j = 0; j< array2.length; j++){
+    resultadoArray2.push(array2[j]);
+  }
+  
+  if(resultadoArray1 === resultadoArray2){
+     return true;
+     
+  } else {
+    
+    return false;
+  }
+}
+
+areArraysSame([1,2,3,4],1,2,3,4);

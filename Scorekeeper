@@ -1,0 +1,16 @@
+var score = {jennifer : 0, jessica : 0,}
+ 
+function jugadoras (nombre,puntaje){
+  rvar nuevoPuntaje = object.key(score)
+ 
+ if (nombre == nuevoPuntaje[0]){
+ score [nuevoPuntaje[0] += puntos]
+ }
+
+ if (nombre == nuevoPuntaje[1]){
+ score [nuevoPuntaje[1] += puntos]
+ }
+
+ function total () {
+ console.log(score);
+ }
