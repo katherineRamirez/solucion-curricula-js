@@ -1,0 +1,49 @@
+line-height: 2;
+
+<td>Help</td>
+			<td>Cities</td>
+			<td>Airports</td>
+			<td>Fare Estimate</t
+
+
+
+<td>Partnerships</td>
+			<td>Enterprise</td>
+			<td>Ambassadors</td>
+			<td>Developers</td>
+
+
+<img src="assets/images/logo-white.png">
+
+img{
+	width: 1300px;
+	height: 800px;
+}
+
+<div id="menu">
+</div>
+
+linear-gradient(#76278F, #2B1E66)
+
+height: 100vh;
+	background-size: cover;
+	width: 100%;
+
+<h3>Log In</h3>
+		<div class="lista-log">
+			<a>
+			<p>Help<br>Cities<br>Airports<br>Fare Estimate</p>
+			</a>
+		</div>
+		<h3>Partner</h3>
+		<div class="lista-partner">
+			<a><p>Partnerships<br>Enterprise<br>Ambassadors<br>Developers</p>
+			</a>
+		</div>
+		<h3>Learn</h3>
+		<div class="lista-learn">
+			<a><p>Safety<br>Blog<br>Press<br>Careers</p>
+			</a>
+
+overflow: hidden;
+	clear: both;

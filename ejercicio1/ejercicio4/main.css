@@ -1,0 +1,16 @@
+#contenedor{
+	width: 300px;
+	margin: 20px;
+}
+
+#contenedor div{
+	background: #6EBBD5;
+	margin: 20px;
+	padding: 20px;
+}
+
+#contenedor #absoluto{
+	position:absolute;
+	left:500px;
+}
+/*nos permite posicionar un elemento sin ocupar un espacio en el documento*/

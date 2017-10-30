@@ -1,0 +1,16 @@
+#contenedor{
+	width: 300px;
+	margin: 20px;
+}
+
+#contenedor div{
+	background: #6EBBD5;
+	margin: 20px;
+	padding: 20px;
+}
+
+#contenedor #relativo{
+	background: #ff8000;
+	position:relative;
+	left: 500px;
+}

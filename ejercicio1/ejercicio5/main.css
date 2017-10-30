@@ -1,0 +1,18 @@
+body{
+	background: url(http://www.todopaisajes.com/Imagenes/paisaje-de-flores.jpg)fixed;
+}
+#contenedor{
+	width: 500px;
+	margin: 20px;
+}
+
+#contenedor div{
+	background: #6EBBD5;
+	margin: 20px;
+	padding: 20px;
+}
+
+#contenedor #fijo{
+	position: fixed;
+	left: 500px;
+}

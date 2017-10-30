@@ -1,0 +1,13 @@
+div{
+	background: #6EBBD5;
+	margin: 20px;
+	padding: 20px;
+	width: 200px;
+	float:left;
+}
+
+/*#flotante{
+	float:right;
+}*/
+
+/*desplazar todos los elementos hacia la derecha o izquierda*/

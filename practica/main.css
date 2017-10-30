@@ -1,0 +1,167 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+header{
+  position: fixed;
+}
+.head a{
+  margin-left: 4%;
+}
+.logo{
+  left: 60%;
+  width: 6%;
+  height: 6%;
+}
+.first-part{
+  position: absolute;
+  text-align: center;
+  width: 80%;
+  height: 50%;
+  top: 30%;
+  left: 8%;
+  color: #fff
+}
+.first-part a{
+  display: inline-block;
+  margin-top: 4%;
+  background-color: #2ecc71;
+  color: #fff;
+  padding: 1%;
+  font-size: 120%;
+}
+.first-part h1{
+  font-size: 300%;
+}
+.fondo{
+  position: relative;
+  width: 100%;
+  height: 38em;
+}
+.second-part{
+  overflow:hidden;
+  background-color: #f17c72;
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  height: 43em;
+}
+  
+h5,h6{
+  margin: 0;
+}
+
+.services{
+  display: inline-block;
+  width: 33%;
+}
+.img{
+  margin-left: 5%;
+  width: 70%;
+  position: relative;
+  text-align: center;
+  left: 5%;
+}
+.description{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+.header-second-part{
+  text-align: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+.header-second-part h2{
+  font-size: 200%;
+}
+.header-second-part h4{
+  font-size: 110%;
+}
+.third-part{
+  overflow:hidden;
+  margin: 0;
+  text-align: center;
+}
+.third-part img{
+  width: 70%;
+  height: 70%;
+}
+.fotos img{
+  margin: 5%;
+  width: 80%;
+  height: 80%;
+}
+.foto{
+  width: 33%;
+  text-align: center;
+  float: left;
+}

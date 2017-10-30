@@ -1,0 +1,350 @@
+/*
+ * Estilos de tu proyecto
+ */
+ /*dejo con un margen y padding de 0 a todo el estilo de mi web*/
+ *{
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+ /* mi header es todo el menú superior, lo dejo en posición fija*/
+ header{
+ 	position: fixed;
+ 	width: 1300px;
+ 	height: 100px;
+	background: #2c3e50;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+ }
+header h3{
+ 	font-size: 30px;
+ 	float: left;
+	margin-left:50px;
+	margin-top: 30px;
+ }
+/* animación al menú superior. Se cambia el color del texto al posicionar el cursor sobre el*/
+ header .menu p:hover{
+	color: #18bc9c;
+ }
+header .menu p{
+ 	float: left;
+ 	margin-top: 40px;
+ 	font-size: 15px;
+ }
+ /*posicionando los textos del menú*/
+ header .menu p:first-child{
+ 	margin-left: 550px;
+ }
+  header .menu p:first-of-type + p{
+ 	margin-left: 30px;
+ }
+  header .menu p:last-child{
+ 	margin-left: 30px;
+ }
+ /*color de fondo y alto de primer contenedor*/
+ #contenedor1{
+ 	background: #18bc9c;
+ 	height: 720px;
+ }
+ /*posicionando estrella de primer contenedor*/
+#contenedor1 .estrella1{
+ 	font-size: 30px;
+ 	color: white;
+ 	font-size: 30px;
+ 	padding-left: 530px;
+ 	padding-top: 10px;
+}
+/*haciendo la línea horizontal que se encuentran antes y después de la estrella*/
+.estrella1::after, .estrella1::before{
+ 	content: "";
+	display: inline-block;
+ 	width: 100px;
+ 	height: 6px;
+ 	background-color: white;
+}
+/*posición de la imagen del contenedor 1*/
+ #contenedor1 img{
+ 	margin-top: 150px;
+ 	margin-left: 500px;
+ }
+ #contenedor1 p{
+ 	text-align: center;
+ 	font-size: 70px;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	font-family: 'Lato', sans-serif;
+ }
+ #contenedor1 h3{
+ 	text-align: center;
+ 	font-family: 'Lato', sans-serif;
+ 	color: white;
+ 	margin-top:65px;
+ 	font-size: 25px;
+ }
+ /*color de fondo y altura al contenedor 2*/
+#contenedor2{
+ 	background:  white;
+ 	height: 800px;
+ }
+ /*transformando a mayúscula el texto que se encuentra en el contenedor 2*/
+ #contenedor2 p{
+ 	text-transform: uppercase;
+ 	font-family: 'Lato', sans-serif;
+ 	text-align: center;
+ 	font-size: 50px;
+ 	margin-top: 100px;
+ }
+ #contenedor2 .estrella2{
+ 	font-size: 30px;
+ 	padding-left: 530px;
+ 	padding-top: 10px;
+ 	color: #2c3e50;
+ }
+ /*haciendo la línea horizontal que se encuentran antes y después de la estrella*/
+.estrella2::after, .estrella2::before{
+ 	content: "";
+	display: inline-block;
+ 	width: 100px;
+ 	height: 6px;
+ 	background-color: #2c3e50;
+}
+<<<<<<< HEAD
+
+ #contenedor2 img{
+=======
+#contenedor2 img{
+>>>>>>> 077ad30c3c353784106eb69914bc3a62ae0fd97f
+ 	vertical-align: middle;
+ 	border-style: none;
+ 	width: 350px;
+ 	margin-left: 70px;
+ 	margin-top: 80px;
+ 	background: white;
+}
+/*color de fondo y posición del contenedor 3*/
+ #contenedor3{
+ 	background: #18bc9c;
+ 	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 90px;
+    height: 550px; 
+ }
+ /*transformando a mayúscula el texto que se encuentra en el contenedor 3*/
+ #contenedor3 h3{
+ 	text-transform: uppercase;
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-align: center;
+ 	font-size: 50px;
+ 	padding-top:80px;
+	top: 30px;
+ 	color: white;
+ }
+ #contenedor3 .estrella3{
+ 	font-size: 30px;
+ 	color: white;
+ 	font-size: 30px;
+ 	padding-left: 520px;
+ 	padding-top: 7px;
+ }
+.estrella3::after, .estrella3::before{
+ 	content: "";
+	display: inline-block;
+ 	width: 100px;
+ 	height: 6px;
+ 	background-color: white;
+}
+#contenedor3 .texto1 p{
+	float: left;
+	line-height: 1.5;
+	text-align: left;
+	font-size: 18px;
+	color: white;
+	width: 400px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 250px;
+}
+#contenedor3 .texto2 p{
+	float: left;
+	line-height: 1.5;
+	text-align: left;
+	font-size: 18px;
+	color: white;
+	width: 400px;
+	height: 80px;
+	margin-top: 20px;
+	margin-left: 35px;
+}
+/*dándole borde, margenes y dimenciones al botón de download theme del contenedor 3*/
+#contenedor3 .descarga{
+	border: 2px solid white;
+	text-decoration: none;
+	color: white;
+	border-radius: 7px;
+	margin-top: 250px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	width: 200px;
+	margin-left: 550px;
+}
+/*dándole tamaño al ícono del botón de download*/
+.descarga i{
+	display: inline-block;
+	font-size: 23px;
+}
+.descarga p{
+	display: inline-block;
+}
+/*animación al botón de download del contenedor 3*/
+#contenedor3 .descarga:hover{
+	background: white;
+	color: #18bc9c;
+}
+/*color de fondo y altura al contenedor 4*/
+#contenedor4{
+	background: white;
+	height: 800px;
+}
+#contenedor4 p{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+#contenedor4 .estrella4{
+ 	font-size: 30px;
+ 	padding-left: 530px;
+ 	padding-top: 10px;
+ 	color: #2c3e50;
+ }
+.estrella4::after, .estrella4::before{
+ 	content: "";
+	display: inline-block;
+ 	width: 100px;
+ 	height: 6px;
+ 	background-color: #2c3e50;
+}
+/*quitándole los estilos a la lista del contenedor 4*/
+#contenedor4 ul{
+	list-style: none;
+	margin-left: 250px;
+	font-size: 20px;
+	color: grey;
+}
+#contenedor4 ul li{
+	margin-top: 40px;
+}
+/*margen, ancho y color de la línea horizontal del contenedor 4*/
+hr{
+	margin-top: 40px;
+	width: 750px;
+	color: #868e96;
+}
+#contenedor4 ul .ultima-linea{
+	margin-top: 170px;
+}
+/*color de fondo, ancho, alto, tamaño, margenes del botón de send del contenedor 4*/
+#contenedor4 h4{
+	background-color: #18bc9c;
+	width: 80px;
+	height: 40px;
+	font-size: 20px;
+	padding-top:15px;
+	font-family: 'Lato', sans-serif;
+	margin-top: 50px;
+	margin-left: 250px;
+	color: white;
+	text-align: center;
+	border-radius: 7px;
+}
+/*animación del botón send, al posicionar el cursor sobre el botón, este cambia su color de fondo*/
+#contenedor4 h4:hover{
+	background-color: teal;
+}
+/*color de fondo, ancho, alto y color de texto de todo el footer*/	
+footer{
+	background-color: #2c3e50;
+	width: 1300px;
+	height: 350px;
+	color: white;
+}
+/*tamaño, posición y margenes de los títulos de las listas del footer*/
+footer h4{
+	font-size: 28px;
+	float: left;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 155px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	padding-top: 30px;
+}
+/*posición, margenes de los párrafos del footer*/
+footer p{
+	float: left;
+	font-size: 20px;
+	margin-left: 130px;
+	margin-top: 25px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+/*margenes y tamaño de los íconos del footer*/
+footer #redes-sociales div{
+	margin-top: 30px;
+	font-size: 20px;
+	float: left;
+}
+/*dándole margenes y borde circular a los íconos del footer*/
+footer #redes-sociales .facebook{
+	margin-left: 130px;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+footer #redes-sociales .google{;
+	margin-left: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+footer #redes-sociales .twitter{
+	margin-left: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+footer #redes-sociales .linkedin{
+	margin-left: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+footer #redes-sociales .dribble{
+	margin-left: 10px;
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 50%;
+}
+/*animación a los íconos del footer*/
+footer #redes-sociales div:hover{
+	color: #18bc9c;
+	background: white;
+}
+footer p a{
+	color: #18bc9c;
+}
+/*quitándole la línea debajo del enlace*/
+footer a{
+	text-decoration: none;
+}
+footer h3{
+	font-size: 15px;
+	font-family: 'Lato', sans-serif;
+	color: white;
+	float: left;
+	margin-top: 100px;
+	margin-left: 500px;
+}

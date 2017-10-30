@@ -1,0 +1,26 @@
+body{
+	font-family: 'Libre Baskerville', serif;
+}
+#texto{
+	margin:  5%
+}
+
+h1{
+	color: #f7b617;
+}
+
+h3{
+	color: grey;
+}
+
+p{
+	text-align: justify;
+}
+.centrar{
+	text-align: white;
+}
+
+
+
+
+
